@@ -1,0 +1,24 @@
+<html lang="de" ng-app="app.lession">
+<head>
+<title>Lession</title>
+<style type="text/css">
+</style>
+<script src="angular.js"></script>
+<script src="own.js"></script>
+<link href="style.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body ng-controller="controller.basic">
+	<h1>Programming Basic</h1>
+	<p>
+		<label>in1: <input ng-model="event.in1"></label>
+	</p>
+	<p>
+		<label>in2: <input ng-model="event.in2"></label>
+	</p>
+	<p>
+		<label>calcOut(): {{event.calcOut()}}</label>
+	</p>
+</body>
+</html>
